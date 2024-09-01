@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+   background-color: #553232f7;
+}
+
+#clock-container img{
+    height: 50px;
+    width: 50px;
+}
+
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#clock{
+    font-size: 6rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-weight: bold;
+    text-align: center;
+    color:white;
+    background-color: hsla(12, 83%, 2%, 0.2);
+    width: 100%;
+    border-radius: 20px;
+}
